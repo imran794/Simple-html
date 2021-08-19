@@ -1,0 +1,498 @@
+/* Reset Code */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.fix:before , .fix:after{
+    content: '';
+    display: table;
+    clear: both;
+    
+}
+
+.area{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* Btn css */
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: red;
+  text-transform: capitalize;
+  text-decoration: none;
+  margin-top: 15px;
+  color: #fff;
+  font-size: 18px;
+  transition: .3s;
+}
+
+.btn:hover{
+  color: #333;
+}
+
+/* Header css */
+
+.header{
+    background-color: #ddd;
+}
+
+.logo{
+    float: left;
+    width: 250px;
+    height: 165px;
+    margin-right: 30px;
+}
+
+
+.menu {
+    float: right;
+    width: 700px;
+}
+
+
+.menu ul{
+    text-align: right;
+    margin-top: 67px;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    color: #333;
+    transition: .3s;
+}
+
+.menu ul li a:hover{
+    background-color: tomato;
+    color: #fff;
+    
+}
+/* service css */
+
+
+.title {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+.single-service {
+  float: left;
+  width: 323px;
+  background-color: teal;
+  margin-right: 15px;
+  padding: 20px;
+}
+
+.single-service:last-child, .service-page .single-service:nth-child(4){
+  margin-right: 0;
+}
+
+.service-page .single-service {
+  width: 238px;
+  margin-bottom: 30px;
+}
+
+.single-service h4 {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.single-service p {
+  color: #fff;
+  margin-top: 10px;
+}
+
+
+
+/* About css */
+
+.about {
+  margin: 30px 0;
+}
+
+.about-laft {
+  float: left;
+  width: 700px;
+  margin-right: 30px;
+}
+
+.about-laft h4 , .about-menu h4{
+    margin-bottom: 20px;
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.about-menu {
+  float: right;
+  width: 270px;
+}
+
+.about-menu ul li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.about-menu ul li:last-child{
+  border: none;
+}
+
+
+.about-menu ul li a {
+  text-decoration: none;
+  color: #333;
+  text-transform: capitalize;
+  transition: .3s;
+}
+
+.about-menu ul li a:hover{
+  color: tomato;
+}
+
+/* footer css */
+
+
+.footer {
+  text-align: center;
+  background-color: teal;
+  padding: 10px 0;
+}
+
+.footer p{
+  color: #fff;
+
+}
+
+/* about page */
+
+.banner-page{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0;
+  position: relative;
+  z-index: 1;
+}
+
+
+.banner-page::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  top: 0;
+  z-index: -1;
+  opacity: 0.50;
+}
+
+.banner-page h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+/* gallery page */
+
+.gallery{}
+
+.gallery{}
+
+.single-gallery{}
+
+.single-gallery iframe{}
+
+
+
+
+
+
+/* Reset Code */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.fix:before , .fix:after{
+    content: '';
+    display: table;
+    clear: both;
+    
+}
+
+.area{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* Btn css */
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: red;
+  text-transform: capitalize;
+  text-decoration: none;
+  margin-top: 15px;
+  color: #fff;
+  font-size: 18px;
+  transition: .3s;
+}
+
+.btn:hover{
+  color: #333;
+}
+
+/* Header css */
+
+.header{
+    background-color: #ddd;
+}
+
+.logo{
+    float: left;
+    width: 250px;
+    height: 165px;
+    margin-right: 30px;
+}
+
+
+.menu {
+    float: right;
+    width: 700px;
+}
+
+
+.menu ul{
+    text-align: right;
+    margin-top: 67px;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    color: #333;
+    transition: .3s;
+}
+
+.menu ul li a:hover{
+    background-color: tomato;
+    color: #fff;
+    
+}
+/* service css */
+
+
+.title {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+.single-service {
+  float: left;
+  width: 323px;
+  background-color: teal;
+  margin-right: 15px;
+  padding: 20px;
+}
+
+.single-service:last-child, .service-page .single-service:nth-child(4){
+  margin-right: 0;
+}
+
+.service-page .single-service {
+  width: 238px;
+  margin-bottom: 30px;
+}
+
+.single-service h4 {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.single-service p {
+  color: #fff;
+  margin-top: 10px;
+}
+
+
+
+/* About css */
+
+.about {
+  margin: 30px 0;
+}
+
+.about-laft {
+  float: left;
+  width: 700px;
+  margin-right: 30px;
+}
+
+.about-laft h4 , .about-menu h4{
+    margin-bottom: 20px;
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.about-menu {
+  float: right;
+  width: 270px;
+}
+
+.about-menu ul li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.about-menu ul li:last-child{
+  border: none;
+}
+
+
+.about-menu ul li a {
+  text-decoration: none;
+  color: #333;
+  text-transform: capitalize;
+  transition: .3s;
+}
+
+.about-menu ul li a:hover{
+  color: tomato;
+}
+
+/* footer css */
+
+
+.footer {
+  text-align: center;
+  background-color: teal;
+  padding: 10px 0;
+}
+
+.footer p{
+  color: #fff;
+
+}
+
+/* about page */
+
+.banner-page{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0;
+  position: relative;
+  z-index: 1;
+}
+
+
+.banner-page::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  top: 0;
+  z-index: -1;
+  opacity: 0.50;
+}
+
+.banner-page h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+/* gallery page */
+
+.single-gallery{
+    float: left;
+    width: 235px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.single-gallery iframe{
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 3px;
+}
+
+.single-gallery:nth-child(4), .single-gallery:last-child{
+  margin-right: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
